@@ -30,13 +30,13 @@ do{
 let i =1
 do{
     if(i % 3 == 0 && i % 5 == 0){
-        console.log("FIZZBUZZ")
+        console.log("FIZZBUZZ");
     }
     else if (i % 3 == 0){
-        console.log("FIZZ")
+        console.log("FIZZ");
     }
     else if(i % 5 == 0){
-        console.log("BUZZ")
+        console.log("BUZZ");
     } 
     i++
 }while(x <=100)
@@ -47,11 +47,11 @@ let n = Math.round(Math.random() * (500 - 100) + 100); // creates a random numbe
 
 for(let i = 1; i <= n; i++){
     if(i == value){
-        console.log(`found ${value}!`)
+        console.log(`found ${value}!`);
         break;
     }
     if(i == n){
-        console.log(`did not find ${value}`)
+        console.log(`did not find ${value}`);
     }
 }
 console.log("EXERCISE 5:\n==========\n");
@@ -63,12 +63,12 @@ let start = Math.round(Math.random() * (10 - 1) + 1);
 
 for(i = start; i <= end; i++){
     if(i % fizzDivisor == 0 && i % buzzDivisor == 0){
-        console.log("FIZZBUZZ")
+        console.log("FIZZBUZZ");
     }
     else if (i % fizzDivisor == 0){
-        console.log("FIZZ")
+        console.log("FIZZ");
     }
     else if(i % buzzDivisor == 0){
-        console.log("BUZZ")
+        console.log("BUZZ");
     }    
 }
